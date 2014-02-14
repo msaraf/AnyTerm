@@ -1,6 +1,13 @@
 [
+    // Terminal
     {
         "keys": ["ctrl+shift+t"],
         "command": "open_terminal"
+    },
+
+    // File Transfer
+    {
+        "keys": ["ctrl+alt+t"],
+        "command": "open_file_transfer"
     }
 ]

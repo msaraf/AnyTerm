@@ -1,0 +1,13 @@
+{
+    /* Full path to terminal program
+     * Default: ${PLUGIN_HOME}/servers.txt */
+    "at_terminal": "C:\\Program Files\\VanDyke Software\\Clients\\SecureCRT.exe",
+
+    /* Full path to file transfer program
+     * Default: ${PLUGIN_HOME}/psftp.exe */
+    "at_filexfer": "C:\\Program Files\\VanDyke Software\\Clients\\SecureFX.exe",
+
+    /* Full path to txt file containing the list of servers
+     * Default: ${PLUGIN_HOME}/servers.txt */
+    "at_server_list": ""
+}
