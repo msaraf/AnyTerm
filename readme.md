@@ -2,8 +2,9 @@
 This plugin for Sublime Text 3 lets you jump to a terminal or file transfer app based on a list of servers you supply.  
 
 ### **Installation**
-
-#### **Clone from GitHub**
+##### **From a terminal window** 
+    cd %AppData%\Sublime Text 3\Packages
+##### **Clone from GitHub**
     git clone https://github.com/msaraf/AnyTerm.git
 
 ### **Usage**
