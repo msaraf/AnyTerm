@@ -1,28 +1,25 @@
-# ** AnyTerm **
+# **AnyTerm**
+This plugin for Sublime Text 3 lets you jump to a terminal or file transfer app based on a list of servers you supply.  
 
-### ** Installation **
+### **Installation**
 
-#### ** Clone from GitHub  **
+#### **Clone from GitHub**
     git clone https://github.com/msaraf/AnyTerm.git
 
-### ** Usage **
+### **Usage**
+
+`Default.sublime-keymap` by default binds:  
+- ["ctrl+shift+t"] to launch a terminal  
+- ["ctrl+alt+t"] to launch file transfer  
 
 `Default.settings` by default:  
 - at_terminal : Runs ${PLUGIN_HOME}/putty.exe [servername]  
 - at_filexfer : Runs ${PLUGIN_HOME}/psftp.exe [servername]  
 - at_server_list : ${PLUGIN_HOME}/servers.default.txt provides the list of servers to pick from  
 
-`Default.sublime-keymap` by default binds:  
-- ["ctrl+shift+t"] to launch a terminal  
-- ["ctrl+alt+t"] to launch file transfer  
+I've gotten this working with **putty** and **securecrt**, your mileage may vary. 
 
-### ** Todo **
-- Use default settings instead of hard coded paths
-- Create default servers.default.txt
-- Test with putty and psftp
-- Finish readme {Install, Usage}
-
-### ** License **
+### **License**
 
 All of AnyTerm is licensed under the MIT License.
 

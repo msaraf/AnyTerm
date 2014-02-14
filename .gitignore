@@ -2,3 +2,5 @@
 *.tmp
 *.pyc
 servers.txt
+putty.exe
+psftp.exe
